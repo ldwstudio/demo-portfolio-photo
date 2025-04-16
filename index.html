@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marco Rossi Photography</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="https://ldwstudio.github.io/" style="text-decoration: none; color: inherit;">MR Photography</a></div>
+        <div class="nav-links">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">Chi Sono</a>
+            <a href="#testimonials">Dicono di me</a>
+            <a href="#contact">Contatti</a>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Catturando momenti, creando ricordi</h1>
+            <p>Fotografia professionale per i tuoi momenti speciali</p>
+            <a href="#portfolio" class="cta-button">Esplora il Portfolio</a>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="filters">
+            <button class="filter-btn active" data-category="all">Tutti</button>
+            <button class="filter-btn" data-category="weddings">Matrimoni</button>
+            <button class="filter-btn" data-category="portraits">Ritratti</button>
+            <button class="filter-btn" data-category="events">Eventi</button>
+        </div>
+        <div class="gallery">
+            <!-- Gallery items will be added via JavaScript -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d" alt="Marco Rossi">
+            </div>
+            <div class="about-text">
+                <h2>Chi Sono</h2>
+                <p>Con oltre 10 anni di esperienza nella fotografia professionale, porto passione e creatività in ogni scatto. Il mio approccio unisce tecnica e sensibilità artistica per catturare l'essenza di ogni momento.</p>
+                <p>Specializzato in fotografia di matrimoni, ritratti ed eventi, lavoro per trasformare istanti in ricordi indimenticabili.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Parlano di Noi</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"Marco ha catturato perfettamente l'essenza del nostro matrimonio. Le foto sono semplicemente magnifiche!"</p>
+                <cite>- Laura e Marco</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Un professionista eccezionale. Ha reso il nostro servizio fotografico un'esperienza indimenticabile."</p>
+                <cite>- Sofia B.</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contattami</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Messaggio" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+            <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="https://ldwstudio.github.io/" class="social-link ldw-link">Created by LDW Studio</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
